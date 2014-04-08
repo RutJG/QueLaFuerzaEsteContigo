@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- http://carlotesrandomice.no-ip.org/testlink/linkto.php?tprojectPrefix=pwr&item=testcase&id=pwr-2 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://venta.renfe.com/vol/index.do" />
+<title>Busca_Tu_Factura-previamente_registrado</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Busca_Tu_Factura-previamente_registrado</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>https://venta.renfe.com/vol/index.do</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtoUsuario</td>
+	<td>SPRINT3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtoPass</td>
+	<td>pepinillo</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Entrar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.misfacturas &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LOCALIZADOR</td>
+	<td>!</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=CDGOTICKET</td>
+	<td>7852100001324</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=FACTURA</td>
+	<td>9999999999999999</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=fechaFacturaDesde</td>
+	<td>09/04/2014</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=fechaFacturaHasta</td>
+	<td>07/05/2014</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Buscar</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
